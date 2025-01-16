@@ -1,1 +1,1 @@
-web: waitress-serve --port=$PORT run:my_flask_app
+web: gunicorn run:my_flask_app

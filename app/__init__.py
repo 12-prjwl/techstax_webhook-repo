@@ -11,10 +11,9 @@ def create_app():
     client = MongoClient(my_flask_app.config["MONGO_URI"])
     my_flask_app.mongo = client["your_database_name"]  # Replace with the name of your database
 
-    # Enable CORS
+    # CORS
     CORS(my_flask_app, resources={r"/*": {"origins": "*"}})
 
-    # Register routes
     from .routes import main
     my_flask_app.register_blueprint(main)
 
