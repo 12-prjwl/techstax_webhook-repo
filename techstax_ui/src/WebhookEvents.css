@@ -1,0 +1,46 @@
+/* WebhookEvents.css */
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif; /* Changed font to 'Roboto' */
+  background-color: #ffffff; /* Removed dark background */
+  color: #333333; /* Darker text for better contrast */
+}
+
+.webhook-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f8f9fa; /* Light background */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center the content */
+}
+
+.webhook-header {
+  font-size: 32px; /* Increased font size */
+  margin-bottom: 20px;
+  color: #007bff; /* Changed color to a shade of blue */
+}
+
+.webhook-error {
+  color: #dc3545; /* Bootstrap danger red */
+}
+
+.webhook-list {
+  list-style: none;
+  padding: 0;
+}
+
+.webhook-item {
+  padding: 15px;
+  font-size: 18px; /* Increased font size for list items */
+  border-bottom: 1px solid #dee2e6; /* Light gray border */
+}
+
+.webhook-item:last-child {
+  border-bottom: none;
+}
+
+.webhook-item:hover {
+  background-color: #e9ecef; /* Light hover effect */
+}
